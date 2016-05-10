@@ -41,7 +41,7 @@ public class Main {
         //------------------------------------------------------------------------------
 
         // This example uses a newer enhanced for loop called a "for-each" loop that
-        // iterates over an array of player weapons. Introduced in Java 5.
+        // iterates over an array of player weapons.
 
         String[] weaponsList = {"Dagger", "Sword", "Club"};
 

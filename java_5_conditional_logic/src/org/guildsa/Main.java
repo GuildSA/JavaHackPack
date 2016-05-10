@@ -54,7 +54,7 @@ public class Main {
         // A switch statement provides an alternative to the if statement when we need
         // to compare a value against several possible matches.
 
-        int monthNumber = 8;
+        int monthNumber = 5;
 
         String monthString;
 
@@ -105,11 +105,11 @@ public class Main {
 
         //------------------------------------------------------------------------------
 
-        String monthName = "June";
+        String monthName = "may";
 
         monthNumber = 0;
 
-        switch(monthName.toLowerCase()) {
+        switch(monthName) {
 
             case "january":
                 monthNumber = 1;
@@ -165,6 +165,5 @@ public class Main {
         }
 
         System.out.println("monthNumber = " + String.valueOf(monthNumber));
-
     }
 }
