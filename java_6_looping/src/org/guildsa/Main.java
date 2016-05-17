@@ -18,7 +18,7 @@ public class Main {
 
         // This can be very useful when you want to create a for loop that increments
         // in an unusual way, such as this one that starts at 2, increments by 2 as
-        // in 2,4,6,8 and stops at 8.
+        // in 2, 4, 6, 8 and stops at 8.
         for(int i = 2; i < 10; i = i + 2) {
 
             System.out.println("i: " + String.valueOf(i));
