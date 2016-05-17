@@ -8,6 +8,7 @@ public class Main {
 
         sayGameOver();
 
+
         // Example Function #2
 
         sayGameOver2("Robert");
@@ -15,8 +16,8 @@ public class Main {
 
         // Example Function #3
 
-        // Here we call our function and then catch the return value in our var called
-        // gameOverMessage.
+        // Here we call our function and then catch the return value in our
+        // String variable called gameOverMessage.
 
         String gameOverMessage = sayGameOver3("Robert");
 
@@ -29,9 +30,8 @@ public class Main {
 
         // Example Function #4
 
-        // To call this function, we can pass just a String for playersScore, but for
-        // the second argument, we must specify the parameter's name when we pass the
-        // value.
+        // To call this function, we pass a String for the players name and an int for
+        // the players score.
 
         System.out.println(sayGameOver4("Kim", 2500));
         System.out.println(sayGameOver4("Charles", 2000));
@@ -91,7 +91,7 @@ public class Main {
     // Example Function #4
 
     // Functions can have more than one argument. This function takes two arguments:
-    // one that is a String for the player's name and a second one that is an Int
+    // one that is a String for the player's name and a second one that is an int
     // which represents the player's score.
 
     private static String sayGameOver4(String playersName, int playersScore) {
