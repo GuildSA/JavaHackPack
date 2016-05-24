@@ -1,8 +1,15 @@
 package org.guildsa;
 
-// Below is a class called Enemy which a game could use to create new
-// enemies for a player to fight. Unlike the Dog class, this is more
+//------------------------------------------------------------------------------
+
+// Below is a class called Enemy which a game could use to create new enemies
+// for a player to fight. Unlike the Animal, Dog and Cat classes, this is more
 // like a real class that you would see in a real app.
+//
+// Note how this class declares Constructors to help us create objects that are
+// initialized and ready to use. These Constructors are basically methods but
+// they must use the same name as the class and they can not specify any return
+// value.
 
 public class Enemy {
 
