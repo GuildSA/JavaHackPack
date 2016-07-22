@@ -1,5 +1,5 @@
-# JavaHackPack
-The JavaHackPack is a collection of Intellij projects aimed at teaching the basics of the Java programming language.
+# java-hack-pack
+The java-hack-pack is a collection of Intellij projects aimed at teaching the basics of the Java programming language.
 
 This is a free educational resource developed by [The Guild of Software Architects](https://guildsa.org/).
 
