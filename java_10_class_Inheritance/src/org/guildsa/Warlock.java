@@ -1,8 +1,7 @@
 package org.guildsa;
 
-// Below is a class called Enemy which a game could use to create new
-// enemies for a player to fight. Unlike the Dog class, this is more
-// like a real class that you would see in a real app.
+// Below is a class called Warlock which extends from the super class
+// Enemy.
 
 public class Warlock extends Enemy {
 
