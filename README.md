@@ -12,14 +12,14 @@ To load and run these Java samples please download the [IntelliJ IDEA Community 
 
 https://www.jetbrains.com/idea/download/
 
-The link below is good for [learning the basics of IntelliJ](https://www.jetbrains.com/help/idea/2016.1/first-steps.html?origin=old_help) and making sure your setup is working correctly:
+The link below is good for [learning the basics of IntelliJ](https://www.jetbrains.com/help/idea/2016.2/discover-intellij-idea.html) and making sure your setup is working correctly:
 
-https://www.jetbrains.com/help/idea/2016.1/first-steps.html?origin=old_help
+https://www.jetbrains.com/help/idea/2016.2/discover-intellij-idea.html
 
 
 ##Install the Java Development Kit
 
-For IntelliJ to compile and run Java code, you'll also need to download and install a JDK or Java Development Kit. You can download one from [Oracle's website](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). The link below will go straight to the JDK version that was used to write the samples found here. It has the name ["Java SE Development Kit 8u91"](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html):
+For IntelliJ to compile and run Java code, you'll also need to download and install a JDK or Java Development Kit. You can download one from [Oracle's website](http://www.oracle.com/). The link below will go straight to the JDK version that was used to write the samples found here. It has the name ["Java SE Development Kit 8u102"](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html):
 
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
