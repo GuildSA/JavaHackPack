@@ -2,6 +2,10 @@ package org.guildsa;
 
 public class Main {
 
+    // In the Java programming language, every application must contain a main
+    // method whose signature is: public static void main(String[] args)
+    // This special method acts as the entry point for our application.
+
     public static void main(String[] args) {
 
         // This one line is a comment!
@@ -22,7 +26,7 @@ public class Main {
         // a value just like a variable but it can never be changed once it has been
         // assigned a value.
 
-        final int maximumNumberOfGameContinues = 3;
+        final int maxGoldCoins = 500;
 
 
         // We can declare multiple variables on a single line if we separate them by commas:
@@ -65,9 +69,10 @@ public class Main {
         weapon = "Mystical Blade of Awesomeness";
         price = 1000;
 
-        // If we're not sure if our variables contain valid data, we can pass them
-        // into String.valueOf() to safely turn them into a String before we try to
-        // add them into a larger string.
+        // You may see other programmers passing their variables into a method called
+        // String.valueOf() when they're building up a string value. This method returns
+        // the string representation of the passed argument and it's useful in cases
+        // where you're unsure if the variable can safely be turned into a String.
 
         System.out.println("Are you sure you want to purchase the " + String.valueOf(weapon) + " for " + String.valueOf(price) + " gold coins?");
 
