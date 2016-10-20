@@ -27,7 +27,7 @@ public class Main {
         //------------------------------------------------------------------------------
 
         // String provides a charAt() method which we can use with a for loop to print
-        // each character of a String individually
+        // each character of a String individually.
 
         String myString = "LOL";
 
@@ -100,19 +100,20 @@ public class Main {
         // We can use the 'break' keyword to break out of a while loop early if we find
         // a reason to.
 
-        int number = 0;
+        int answer = 0;
 
-        while(number < 10) {
+        while(answer < 10) {
 
-            System.out.println( "while-break test " + String.valueOf(number));
+            System.out.println( "Testing answer " + String.valueOf(answer));
 
-            if(number == 5) {
+            if(answer == 42) {
 
-                // If the number is 5 - stop looping and jump out of the loop's body!
+                // If the number is 42 - stop looping and jump out of the loop's body!
+                System.out.println("We just found it... The Answer to the Ultimate Question of Life, the Universe, and Everything!");
                 break;
             }
 
-            ++number;
+            ++answer;
         }
 
         //------------------------------------------------------------------------------
@@ -120,9 +121,11 @@ public class Main {
         // The 'continue' keyword allows us to skip the rest of the loop's body and jump
         // to the loop's top.
 
-        int answer = 0;
+        answer = 0;
 
-        while(answer < 100) {
+        while(answer < 50) {
+
+            System.out.println( "Testing answer " + String.valueOf(answer));
 
             ++answer;
 
@@ -134,6 +137,7 @@ public class Main {
             }
 
             System.out.println("We just found it... The Answer to the Ultimate Question of Life, the Universe, and Everything!");
+            break;
         }
 
         //------------------------------------------------------------------------------
@@ -145,14 +149,14 @@ public class Main {
         // loop’s condition. It then continues to repeat the loop until the condition
         // is false.
 
-        int doWhileNumber = 0;
+        int number = 0;
 
         do {
 
-            System.out.println( "do-while test " + String.valueOf(doWhileNumber));
+            System.out.println( "do-while test " + String.valueOf(number));
 
-            ++doWhileNumber;
+            ++number;
 
-        } while(doWhileNumber < 5);
+        } while(number < 5);
     }
 }
