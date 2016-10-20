@@ -4,17 +4,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Example Function #1
+        // Example of calling function #1
 
         sayGameOver();
 
 
-        // Example Function #2
+        // Example of calling function #2
 
         sayGameOver2("Robert");
 
 
-        // Example Function #3
+        // Example of calling function #3
 
         // Here we call our function and then catch the return value in our
         // String variable called gameOverMessage.
@@ -28,13 +28,13 @@ public class Main {
         System.out.println(gameOverMessage);
 
 
-        // Example Function #4
+        // Example of calling function #4
 
-        // To call this function, we pass a String for the players name and an int for
-        // the players score.
+        // To call this function, we pass a String for the player's name and an int for
+        // the player's score.
 
-        System.out.println(sayGameOver4("Kim", 2500));
-        System.out.println(sayGameOver4("Charles", 2000));
+        System.out.println( sayGameOver4("Kim", 2500) );
+        System.out.println( sayGameOver4("Charles", 2000) );
     }
 
     //------------------------------------------------------------------------------
