@@ -168,7 +168,7 @@ public class Main {
 
         //------------------------------------------------------------------------------
 
-        // As another of a class, we'll use our new Enemy class to create an instance
+        // For the next example, we'll use our new Enemy class to create an instance
         // of an Enemy! This enemy will simply use the default constructor which just
         // uses the default value set on the Instance Variables.
 

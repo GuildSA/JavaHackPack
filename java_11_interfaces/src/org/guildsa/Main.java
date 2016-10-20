@@ -1,11 +1,9 @@
 package org.guildsa;
 
-//------------------------------------------------------------------------------
-
 // Interfaces
 
 // An interface defines a collection of abstract methods that suit a particular
-// task or piece of functionality. The interface can then be used by a class
+// task or a piece of functionality. The interface can then be used by a class
 // to provide an actual implementation of those requirements.
 //
 // Any type that satisfies the requirements of an interface is said to conform
