@@ -34,7 +34,7 @@ public class Main {
         byte myByte = 42;
         short myShort = 1500;
         int myInt = 9000;
-        long myLong = 2147483647L;     // Note the 'L' on the end to denote a long value!
+        long myLong = 214748364736574585L;     // Note the 'L' on the end to denote a long value!
 
         //------------------------------------------------------------------------------
 
@@ -77,7 +77,7 @@ public class Main {
 
         // Now, the String type is a class, so it is not a primitive data type, but
         // considering how often it gets used, most programmers mistakenly think of it
-        // as a built-in, primitive type..
+        // as a built-in, primitive type.
 
         String myString = "This is a string!";
 
@@ -157,7 +157,7 @@ public class Main {
         System.out.println("Weapon at index 2 = " + weaponsArray[2]);
 
         // Be careful though! Indexing an array position that doesn't exist can cause a crash!
-        //System.out.println("Weapon at index 3: " + weaponsList[3]);
+        //System.out.println("Weapon at index 3: " + weaponsArray[3]);
 
         //------------------------------------------------------------------------------
 
