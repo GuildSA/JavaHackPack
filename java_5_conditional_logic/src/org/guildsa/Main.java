@@ -51,6 +51,53 @@ public class Main {
 
         //------------------------------------------------------------------------------
 
+        // If we want to write if-statements that check multiple expressions we can
+        // use Logical Operators to decided if an if-statement should be executed
+        // or not.
+
+        // Swift Logical Operators
+
+        // Logical AND (a && b) - Returns true if both expressions are true
+        // Logical OR  (a || b) - Returns true if either of the two expressions are true
+        // Logical NOT (!a)     - Negates or inverts the expression's result.
+
+        int goldCoins = 800;
+        int rubies = 5;
+
+        int priceUsingGold = 500;
+        int priceUsingRubies = 10;
+
+        boolean hasSword = true; // Does the shop keeper have one to sell?
+
+        // If the player has enough gold coins AND the shop keeper has a magic sword
+        // to sell - ask the player if he would like to purchase it.
+
+        if(goldCoins >= priceUsingGold && hasSword == true) {
+            System.out.println("Would you like to purchase a magic sword?");
+        } else {
+            System.out.println("I'm sorry. The magic sword is unavailable.");
+        }
+
+        // If the player has enough gold coins OR the player has enough ruby gems -
+        // ask the player if he would like to purchase it.
+
+        if(goldCoins >= priceUsingGold || rubies >= priceUsingRubies) {
+            System.out.println("Would you like to purchase a magic sword?");
+        } else {
+            System.out.println("I'm sorry. The magic sword is unavailable.");
+        }
+
+        // The 'not' Logical Operator just inverts or negates a Boolean variable or the
+        // result of an expression.
+
+        hasSword = false;
+
+        if(!hasSword) {
+            System.out.println("The shop keeper has no magic sword!");
+        }
+
+        //------------------------------------------------------------------------------
+
         // A switch statement provides an alternative to the if statement when we need
         // to compare a value against several possible matches.
 
