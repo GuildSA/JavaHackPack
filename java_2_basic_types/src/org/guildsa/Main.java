@@ -169,32 +169,32 @@ public class Main {
         // A consequence of this is that the rows are allowed to vary in length,
         // as shown here:
 
-        String[][] weaponTypes = {
+        String[][] weaponData = {
             {"Bronze", "Iron", "Steel"},
             {"Sword", "Spear"}
         };
 
         // Array 0 at index 0 = Bronze
         // Array 1 at index 0 = Sword
-        System.out.println(weaponTypes[0][0] + " " + weaponTypes[1][0]);
+        System.out.println(weaponData[0][0] + " " + weaponData[1][0]);
 
         // Array 0 at index 1 = Iron
         // Array 1 at index 0 = Sword
-        System.out.println(weaponTypes[0][1] + " " + weaponTypes[1][0]);
+        System.out.println(weaponData[0][1] + " " + weaponData[1][0]);
 
         // Array 0 at index 1 = Iron
         // Array 1 at index 1 = Spear
-        System.out.println(weaponTypes[0][1] + " " + weaponTypes[1][1]);
+        System.out.println(weaponData[0][1] + " " + weaponData[1][1]);
 
         // Array 0 at index 2 = Steel
         // Array 1 at index 1 = Spear
-        System.out.println(weaponTypes[0][2] + " " + weaponTypes[1][1]);
+        System.out.println(weaponData[0][2] + " " + weaponData[1][1]);
 
 
         // Be careful when accessing length though... which length are you talking about!?
-        System.out.println(weaponTypes.length); // The weaponTypes array has 2 sub-arrays.
-        System.out.println(weaponTypes[0].length); // The length of the first sub-array is 3.
-        System.out.println(weaponTypes[1].length); // The length of the second sub-array is 2.
+        System.out.println(weaponData.length); // The weaponData array has 2 sub-arrays.
+        System.out.println(weaponData[0].length); // The length of the first sub-array is 3.
+        System.out.println(weaponData[1].length); // The length of the second sub-array is 2.
 
         //------------------------------------------------------------------------------
 
