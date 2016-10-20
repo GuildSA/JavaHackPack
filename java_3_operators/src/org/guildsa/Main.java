@@ -6,7 +6,7 @@ public class Main {
 
         // Arithmetic Operators
 
-        // We've seen the assignment operator (=) in action:
+        // We've already seen the assignment operator (=) in action:
 
         int myVar = 42;
 
@@ -78,7 +78,7 @@ public class Main {
 
         System.out.println("i = " + i);
 
-        // We can also place the increment and decrement operators after the var.
+        // We can also place the increment and decrement operators after the variable.
         int j = 0;
 
         j++;
@@ -89,8 +89,8 @@ public class Main {
 
         System.out.println("j = " + j);
 
-        // When the operator is before the var, we call it the prefix version of the
-        // operator, and when it's after the var, it is the postfix version of the
+        // When the operator is before the variable, we call it the prefix version of the
+        // operator, and when it's after the variable, it is the postfix version of the
         // operator. Which one you choose to use doesn't matter unless the increment or
         // decrement operator is being used as part of a larger assignment.
 
@@ -118,12 +118,44 @@ public class Main {
         // Greater than or equal to  (a >= b)
         // Less than or equal to     (a <= b)
 
-        System.out.println("y = " + String.valueOf(1 == 1));   // true, because 1 is equal to 1
-        System.out.println("y = " + String.valueOf(2 != 1));   // true, because 2 is not equal to 1
-        System.out.println("y = " + String.valueOf(2 > 1));    // true, because 2 is greater than 1
-        System.out.println("y = " + String.valueOf(1 < 2));    // true, because 1 is less than 2
-        System.out.println("y = " + String.valueOf(1 >= 1));   // true, because 1 is greater than or equal to 1
-        System.out.println("y = " + String.valueOf(2 <= 1));   // false, because 2 is not less than or equal to 1
+        // This will print true, because 1 is equal to 1
+        System.out.println("Equal to : " + String.valueOf( 1 == 1 ));
+
+        // This will print true, because 2 is not equal to 1
+        System.out.println("Not equal to : " + String.valueOf( 2 != 1 ));
+
+        // This will print true, because 2 is greater than 1
+        System.out.println("Greater than : " + String.valueOf( 2 > 1 ));
+
+        // This will print true, because 1 is less than 2
+        System.out.println("Less than : " + String.valueOf( 1 < 2 ));
+
+        // This will print true, because 1 is greater than or equal to 1
+        System.out.println("Greater than or equal to : " + String.valueOf( 1 >= 1 ));
+
+        // This will print false, because 2 is not less than or equal to 1
+        System.out.println("Less than or equal to : " + String.valueOf( 2 <= 1 ));
+
+        //------------------------------------------------------------------------------
+
+        // Logical Operators
+
+        // Logical operators modify or combine the Boolean logic values true and false.
+        // Java supports the three standard logical operators found in C-based languages:
+        //
+        // Logical AND (a && b) - Returns true if both expressions are true
+        // Logical OR  (a || b) - Returns true if either of the two expressions are true
+        // Logical NOT (!a)     - Negates or inverts the expression's result.
+
+        // This will print true, because both 2 > 1 AND 4 > 2 are true.
+        System.out.println("Logical AND : " + String.valueOf( 2 > 1 && 4 > 2 ));
+
+         // This will print true, because at least one of the expressions is true.
+        System.out.println("Logical OR : " + String.valueOf( 2 > 1 || 0 > 100 ));
+
+        // This will print false because even though (1 == 1) is true the ! inverts
+        // the result and makes it false.
+        System.out.println("Logical NOT : " + String.valueOf( !(1 == 1) ));
 
         //------------------------------------------------------------------------------
 
@@ -133,9 +165,9 @@ public class Main {
         // takes the form of question ? answer1 : answer2.
 
         int speed = 100;
-        boolean hasTurbo = true;
+        boolean turboButtonPressed = true;
 
-        speed = (hasTurbo ? speed*2 : speed);
+        speed = (turboButtonPressed ? speed * 2 : speed);
 
         System.out.println("speed = " + speed);
 
@@ -143,9 +175,9 @@ public class Main {
         // code to get the same result.
 
         speed = 100;
-        hasTurbo = true;
+        turboButtonPressed = true;
 
-        if(hasTurbo) {
+        if(turboButtonPressed) {
             speed = speed * 2;
         }
 

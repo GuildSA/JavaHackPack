@@ -47,7 +47,7 @@ public class Main {
 
         weaponsList.set(2, "Battle Mace"); // Upgrade that old Club to a Battle Mace!
 
-        System.out.println(weaponsList.toString());
+        System.out.println(weaponsList.get(2));
 
         // We can add new entries to the ArrayList by calling the append method. The append
         // method always adds to the end of the array.
@@ -57,12 +57,12 @@ public class Main {
 
         // If we want to add something at a certain index, we can use a special version
         // of the add() method to insert a new value at that index.
-        weaponsList.add(1, "Broad Sword");
+        weaponsList.add(2, "Broad Sword");
 
         System.out.println(weaponsList.toString());
 
         // Likewise, we can also remove items.
-        weaponsList.remove(0);
+        weaponsList.remove(1);
 
         System.out.println(weaponsList.toString());
 
@@ -156,6 +156,7 @@ public class Main {
         // A HashSet stores distinct values of the same type in a collection with no defined
         // ordering. You can use a set instead of an array when the order of items is not
         // important, or when you need to ensure that an item only appears once.
+
 
         HashSet<Character> letters = new HashSet<>();
 
