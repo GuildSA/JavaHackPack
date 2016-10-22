@@ -5,6 +5,9 @@ This is a free educational resource developed by [The Guild of Software Architec
 
 If you're not familiar with GitHub, which is the website where this code is being hosted online, simply click on the "Download ZIP" button to get all the source code and learning materials. It can be found on the far right-hand side of this page.
 
+##Setup Video
+
+All of the setup instructions below can be seen as a Youtube video on the [The Guild of Software Architects official Youtube channel](https://youtu.be/zJVrfMQwfRs)
 
 ##Install the IntelliJ Code Editor
 
@@ -37,4 +40,3 @@ These are the menu entries that are most important:
 Build -> Make Project
 Run -> Run 'Main'
 ```
-
