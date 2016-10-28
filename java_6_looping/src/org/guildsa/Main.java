@@ -102,7 +102,7 @@ public class Main {
 
         int answer = 0;
 
-        while(answer < 10) {
+        while(answer < 100) {
 
             System.out.println( "Testing answer " + String.valueOf(answer));
 
