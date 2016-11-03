@@ -7,7 +7,7 @@ public class Main {
     // An enumeration defines a common type for a group of related values and
     // enables you to work with those values in a type-safe way within your code.
 
-    public enum JoystickDirection {
+    public enum GamePadDirection {
         Up,
         Down,
         Left,
@@ -43,11 +43,11 @@ public class Main {
     public static void main(String[] args) {
 
         // Write out all the possible values of the JoystickDirection enum:
-        for(JoystickDirection direction : JoystickDirection.values()) {
+        for(GamePadDirection direction : GamePadDirection.values()) {
             System.out.println(direction);
         }
 
-        JoystickDirection joystickInput = JoystickDirection.Up;
+        GamePadDirection joystickInput = GamePadDirection.Up;
 
         System.out.println("Joystick is being pushed: " + String.valueOf(joystickInput) + "!");
 
@@ -56,28 +56,28 @@ public class Main {
         // A switch statement is a great way to process the value of a variable that is
         // an enumeration type.
 
-        joystickInput = JoystickDirection.Down;
+        joystickInput = GamePadDirection.Down;
 
         switch(joystickInput) {
 
             case Up:
-                System.out.println("The joystick is being pushed up!");
+                System.out.println("The game pad is being pushed up!");
                 break;
 
             case Down:
-                System.out.println("The joystick is being pushed down!");
+                System.out.println("The game pad is being pushed down!");
                 break;
 
             case Left:
-                System.out.println("The joystick is being pushed left!");
+                System.out.println("The game pad is being pushed left!");
                 break;
 
             case Right:
-                System.out.println("The joystick is being pushed right!");
+                System.out.println("The game pad is being pushed right!");
                 break;
 
             default:
-                System.out.println("Unknown JoystickDirection!");
+                System.out.println("Unknown GamePadDirection!");
                 break;
         }
 
