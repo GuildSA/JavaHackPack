@@ -42,23 +42,24 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Write out all the possible values of the JoystickDirection enum:
+        GamePadDirection gamePadInput = GamePadDirection.Up;
+
+        System.out.println("Game pad is being pushed: " + String.valueOf(gamePadInput) + ".");
+
+        // Write out all the possible values of the GamePadDirection enum:
+        // Write out all the possible values of the GamePadDirection enum:
         for(GamePadDirection direction : GamePadDirection.values()) {
             System.out.println(direction);
         }
-
-        GamePadDirection joystickInput = GamePadDirection.Up;
-
-        System.out.println("Joystick is being pushed: " + String.valueOf(joystickInput) + "!");
 
         //------------------------------------------------------------------------------
 
         // A switch statement is a great way to process the value of a variable that is
         // an enumeration type.
 
-        joystickInput = GamePadDirection.Down;
+        gamePadInput = GamePadDirection.Down;
 
-        switch(joystickInput) {
+        switch(gamePadInput) {
 
             case Up:
                 System.out.println("The game pad is being pushed up!");
@@ -80,6 +81,29 @@ public class Main {
                 System.out.println("Unknown GamePadDirection!");
                 break;
         }
+
+        //------------------------------------------------------------------------------
+
+        // Now, if you're wondering why enumerations are useful, consider the typical
+        // alternative. Instead of using an enumeration to represent the possible
+        // Game pad Directions we could've defined a bunch of simple constants values,
+        // but if we do this, we lose the type safety that enumerations enforce!
+
+        /*
+        final int GamePadUp = 1;
+        final int GamePadDown = 2;
+        final int GamePadLeft = 3;
+        final int GamePadRight = 4;
+
+        // This works and looks reasonable... so far so good!
+        int gamePadDirection = GamePadUp;
+
+        // But without type safety, we can also do this which makes no sense!
+        gamePadDirection = 55;
+
+        // What does the value 55 mean? Java will not mark this an error because 55
+        // is just as valid a value as 1,2,3, or 4 which are used by the constants.
+        */
 
         //------------------------------------------------------------------------------
 
