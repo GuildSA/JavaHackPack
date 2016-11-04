@@ -176,7 +176,7 @@ public class Main {
 
         System.out.println(typicalEnemy.getWeapon());
         System.out.println(typicalEnemy.getAttackDamage());
-        System.out.println(typicalEnemy.getAttackDamage());
+        System.out.println(typicalEnemy.getHealthPoints());
 
         typicalEnemy.attack();
         typicalEnemy.applyDamage(10);
